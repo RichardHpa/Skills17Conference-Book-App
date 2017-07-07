@@ -1,0 +1,46 @@
+body{
+	background-color: grey;
+}
+
+#main {
+	width: 960px;
+	min-height: 100px;
+	margin: 30px auto;
+	background-color: white;
+	overflow: auto;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 10px;
+	-webkit-box-shadow: 10px;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin: 0px 20px;
+}
+
+nav a {
+	padding: 4px 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	border: 2px solid white;
+}
+
+label, .inputForm, textarea{
+	display: block;
+	width: 100%;
+}
+
+input, textarea{
+	border: 1px solid black;
+}

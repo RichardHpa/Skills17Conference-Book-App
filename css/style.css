@@ -44,3 +44,7 @@ label, .inputForm, textarea{
 input, textarea{
 	border: 1px solid black;
 }
+
+table{
+	width: 100%;
+}
